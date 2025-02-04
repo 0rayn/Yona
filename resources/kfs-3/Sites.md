@@ -1,2 +1,0 @@
-- [ ] [Linux Memory Management](https://origin.kernel.org/doc/html/v6.12/admin-guide/mm/)
-- [ ] [Paging on x86](https://www.youtube.com/watch?v=dn55T2q63RU)
