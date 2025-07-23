@@ -22,8 +22,7 @@ gpio-line-names =	"RP1_SDA",			0
 					"2712_STAT_LED",	9
 */
 
-
-#define GPIO2_BASE		0x7D517C00UL
+#define GPIO2_BASE		0x107C000000UL + 0x1517C00
 #define GPIO2_DIR         (*(volatile u32 *)(GPIO2_BASE + 0x08))
 #define GPIO2_DATA        (*(volatile u32 *)(GPIO2_BASE + 0x04))
 #define STAT_LED_BIT	(1u << 9)
